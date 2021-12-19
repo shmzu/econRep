@@ -834,7 +834,7 @@ footer {
 
 .irs--flat .irs-line,
 .irs--flat .irs-bar {
-    width: 295px;
+    width: 100%;
     height: 3px;
 }
 
@@ -1665,6 +1665,10 @@ footer {
 
     .mobile-menu__block {
         overflow: scroll;
+    }
+
+    .footer__top {
+        flex-direction: column;
     }
 }
 
