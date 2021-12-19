@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Экон Урфо | Отопительное оборудование</title>
+</head>
+
+<body id="body">
+    <div class="wrapper">
+        <div class="mobile-menu">
+            <div class="mobile-menu__block">
+                <div class="mobile-menu__top">
+                    <a class="logo mobile-menu__logo" href="#">
+                        <img class="logo__img" src="image/logo.png" alt="Логотип сайта" width="186" height="36">
+                    </a>
+                    <div class="mobile-menu__close">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="black">
+                            <path d="M1.14948 15.2874L15.0009 1.04069" stroke="#000000" stroke-width="1.7"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M14.8094 15.2874L1.00001 0.999957" stroke="#000000" stroke-width="1.7"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="mobile-menu__groups">
+                    <div class="mobile-menu__group">
+                        <span
+                            class="mobile-menu__title mobile-menu__title--battery mobile-menu__title--active">Отопительное
+                            оборудование</span>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">Радиаторы отопления</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">Конвекторы отопления</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">Полотенцесушители</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">Арматура для радиаторов и конвектеров</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu__group">
+                        <span class="mobile-menu__title mobile-menu__title--mixer">Комплектация объектов
+                            сантехникой</span>
+                    </div>
+                    <div class="mobile-menu__group">
+                        <span class="mobile-menu__title mobile-menu__title--sanitizer">Дозаторы антисептика и стойки для
+                            диспенсера</span>
+                    </div>
+                    <div class="mobile-menu__group">
+                        <span class="mobile-menu__title mobile-menu__title--shower">Водосберегающая сантехника</span>
+                    </div>
+                </div>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">Наше производство</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">Готовые решения</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">О компании</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">Сертификаты</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">Новости</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-menu__overlay"></div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <nav class="navigation">
+                    <div class="header__top">
+                        <button class="burger-menu" type="button">
+                            <span class="burger-menu__line"></span>
+                            <span class="sr-only">Открыть меню</span>
+                        </button>
+                        <a class="logo" href="#">
+                            <img class="logo__img" src="image/logo.png" alt="Логотип сайта" width="276" height="66">
+                        </a>
+                        <form class="header__form" action="#">
+                            <label class="header__label" for="search">
+                                <input class="header__input" type="search" id="search" placeholder="Поиск товаров.."
+                                    required>
+                            </label>
+                        </form>
+                        <ul class="header__top-list">
+                            <li class="header__top-item">
+                                <a class="header__top-link" href="#" target="blank"
+                                    style="background-image: url('image/icons/delivery-icon.svg');">
+                                    <span class="sr-only">Доставка</span>
+                                </a>
+                            </li>
+                            <li class="header__top-item">
+                                <a class="header__top-link" href="#" target="blank"
+                                    style="background-image: url('image/icons/lk-icon.svg');">
+                                    <span class="sr-only">Личный кабинет</span>
+                                </a>
+                            </li>
+                            <li class="header__top-item">
+                                <button class="header__top-btn" href="#"
+                                    style="background-image: url('image/icons/cart-icon.svg');">
+                                    <span class="sr-only">Корзина</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__bottom">
+                        <ul class="header__bottom-list">
+                            <li class="header__bottom-item header__bottom-item--location">
+                                <a class="header__bottom-link" href="#">Екатеринбург</a>
+                            </li>
+                            <li class="header__bottom-item header__bottom-item--phone">
+                                <a class="header__bottom-link" href="tel:+1234567890">+7 (495) 506-36-50</a>
+                            </li>
+                            <li class="header__bottom-item header__bottom-item--email">
+                                <a class="header__bottom-link" href="mailto:office@uconerfo.ru">office@uconerfo.ru</a>
+                            </li>
+                            <li class="header__bottom-item header__bottom-item--application">
+                                <a class="header__bottom-link" href="#">Заявка на расчет</a>
+                            </li>
+                            <li class="header__bottom-item header__bottom-item--contact">
+                                <a class="header__bottom-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="banner-main">
+                <div class="container">
+                    <div class="banner-main__inner">
+                        <div class="banner-main__content">
+                            <div class="banner-main__title">
+                                <span>Дозаторы и антисептики</span>
+                            </div>
+                            <div class="banner-main__text">
+                                <p>Устанавливаются в общественных местах для предотвращения распространения вирусов
+                                    микробов</p>
+                            </div>
+                        </div>
+                        <img class="banner-main__img" src="image/banner.png" alt="Санитайзер" width="262" height="295">
+                        <a class="banner-main__link" href="#">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+            <section class="catalog">
+                <div class="container">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link" href="#">Главная</a>
+                            <span>/</span>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link breadcrumbs__link--active" href="#">Отопительное
+                                оборудование</a>
+                        </li>
+                    </ul>
+                    <div class="catalog__title">
+                        <span>Отопительное оборудование</span>
+                    </div>
+                    <span class="catalog__sorting-text catalog__sorting-text--mobile">2394 <span
+                        class="catalog__sorting-text catalog__sorting-text--secondary">товаров</span>
+                    </span>
+                    <div class="catalog__inner">
+                        <aside class="catalog__main-filter">
+                            <div class="catalog__filter-top">
+                                <span>Фильтры</span>
+                                <button class="catalog__filter-reset" type="reset">Сбросить</button>
+                            </div>
+
+                            <div class="widget">
+                                <span class="widget__title">Отопительное оборудование</span>
+                                <ul class="widget__list">
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Радиаторы отопления</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Конвекторы отопления</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Полотенцесушители</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Арматура для радиаторов</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-brand">
+                                <span class="widget__title">Бренд</span>
+                                <ul class="widget__list">
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Purmo</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Irsap</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Terma</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Loten</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Guardo</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-price">
+                                <span class="widget__title widget__title--price">Цена</span>
+                                <input type="text" class="js-range-slider" name="my_range" value="" />
+                            </div>
+                            <div class="widget widget-count">
+                                <span class="widget__title">Количество секций</span>
+                                <ul class="widget__list">
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">4</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">6</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">8</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">12</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-distance">
+                                <span class="widget__title">Межосетевое расстояние</span>
+                                <ul class="widget__list">
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">20 см</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">30 см</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">50 см</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget">
+                                <span class="widget__title">Площадь отопления</span>
+                                <ul class="widget__list">
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Более 19 м²</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">Менее 8 м²</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">от 10 до 14 м²</span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="checkbox">
+                                            <input class="checkbox__real" type="checkbox">
+                                            <span class="checkbox__fake"></span>
+                                            <span class="checkbox__title">от 15 до 26 м²</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget wigdet-color">
+                                <span class="widget__title">Цвет</span>
+                                <ul class="filter__list">
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--red"></span>
+                                            <span class="radio-button__title">
+                                                Красный
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--yellow"></span>
+                                            <span class="radio-button__title">
+                                                Желтый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--green"></span>
+                                            <span class="radio-button__title">
+                                                Зеленый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--blue"></span>
+                                            <span class="radio-button__title">
+                                                Синий
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--purple"></span>
+                                            <span class="radio-button__title">
+                                                Фиолетовый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--pink"></span>
+                                            <span class="radio-button__title">
+                                                Розовый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--beige"></span>
+                                            <span class="radio-button__title">
+                                                Бежевый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake"></span>
+                                            <span class="radio-button__title">
+                                                Белый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--black"></span>
+                                            <span class="radio-button__title">
+                                                Черный
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="widget__item">
+                                        <label class="radio-button">
+                                            <input class="radio-button__real" type="radio">
+                                            <span class="radio-button__fake radio-button__fake--gray"></span>
+                                            <span class="radio-button__title">
+                                                Серый
+                                                <div class="radio-button__filter-close">
+                                                    <svg width="9" height="9" viewBox="0 0 9 9" fill="#000000">
+                                                        <path d="M1.07458 8L7.86099 1.01996" stroke="#000000"
+                                                            fill="#000000" stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7.76776 8L1.00195 1" stroke="#000000" fill="#000000"
+                                                            stroke-width="1.7" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="mobile-filter__buttons">
+                                <button class="mobile-filter__button-apply" type="button">Применить</button>
+                                <button class="catalog__filter-reset mobile-filter__button-reset"
+                                    type="button">Сбросить</button>
+                            </div>
+                        </aside>
+                        <div class="catalog__content">
+                            <div class="filter-mobile">
+                                <div class="filter__inner">
+                                    <span class="filter-mobile__filter">Фильтры</span>
+                                    <span class="filter-mobile__sort">Сортировка</span>
+                                </div>
+                            </div>
+                            <div class="catalog__sorting">
+                                <span class="catalog__sorting-text">2394 <span
+                                        class="catalog__sorting-text catalog__sorting-text--secondary">товаров</span>
+                                </span>
+
+                                <form class="catalog__sorting-form" action="#">
+                                    <label class="catalog__sorting-label" for="sort">Цена: </label>
+                                    <select class="catalog__sorting-select" name="sort" id="sort">
+                                        <option value="">По возрастанию</option>
+                                        <option value="">По убыванию</option>
+                                    </select>
+                                </form>
+
+                            </div>
+                            <ul class="catalog__products">
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-1.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-badges">
+                                            <span class="catalog__card-badge">Акция</span>
+                                        </div>
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-2.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <div class="catalog__card-prices">
+                                                <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                                <span class="catalog__card-price catalog__card-price--old">5 890
+                                                    <span>₽</span></span>
+                                            </div>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-3.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Радиатор биметаллический Royal Thermo PianoForte</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-1.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-2.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <div class="catalog__card-prices">
+                                                <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            </div>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-3.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Радиатор биметаллический Royal Thermo PianoForte</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-1.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-badges">
+                                            <span class="catalog__card-badge">Акция</span>
+                                        </div>
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-2.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <div class="catalog__card-prices">
+                                                <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                                <span class="catalog__card-price catalog__card-price--old">5 890
+                                                    <span>₽</span></span>
+                                            </div>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-3.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Радиатор биметаллический Royal Thermo PianoForte</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-1.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-2.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <div class="catalog__card-prices">
+                                                <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            </div>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-3.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Радиатор биметаллический Royal Thermo PianoForte</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-1.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-2.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Биметаллический радиатор Royal Thermo Indigo Super</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <div class="catalog__card-prices">
+                                                <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            </div>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="catalog__card-wrapper catalog__card--hidden">
+                                    <a class="catalog__card" href="#">
+                                        <div class="catalog__card-image">
+                                            <img src="image/cards/card-3.png"
+                                                alt="Биметаллический радиатор Royal Thermo Indigo Super" width="241"
+                                                height="293">
+                                        </div>
+                                        <div class="catalog__card-name">
+                                            <p>Радиатор биметаллический Royal Thermo PianoForte</p>
+                                        </div>
+                                        <div class="catalog__card-buy">
+                                            <span class="catalog__card-price">4 250 <span>₽</span></span>
+                                            <button class="catalog__card-btn" type="button">
+                                                <svg width="27" height="28" viewBox="0 0 27 28" fill="none">
+                                                    <path
+                                                        d="M18.1158 9.6427V7.50504C18.1158 6.83892 17.9846 6.17932 17.7297 5.56391C17.4748 4.94849 17.1012 4.38931 16.6301 3.9183C16.1591 3.44728 15.6 3.07365 14.9845 2.81873C14.3691 2.56382 13.7095 2.43262 13.0434 2.43262C12.3773 2.43262 11.7177 2.56382 11.1023 2.81873C10.4869 3.07365 9.92768 3.44728 9.45666 3.9183C8.98564 4.38931 8.61201 4.94849 8.3571 5.56391C8.10218 6.17932 7.97098 6.83892 7.97098 7.50504V12.5775C7.97098 12.7696 8.04733 12.954 8.18322 13.0899C8.31912 13.2257 8.50343 13.3021 8.69561 13.3021C8.8878 13.3021 9.07211 13.2257 9.20801 13.0899C9.3439 12.954 9.42025 12.7696 9.42025 12.5775V11.092H15.2173V9.6427H9.42025V7.50504C9.42025 6.54412 9.80197 5.62255 10.4814 4.94308C11.1609 4.26361 12.0825 3.88188 13.0434 3.88188C14.0043 3.88188 14.9259 4.26361 15.6054 4.94308C16.2848 5.62255 16.6666 6.54412 16.6666 7.50504V12.5412C16.6666 12.7334 16.7429 12.9177 16.8788 13.0536C17.0147 13.1895 17.199 13.2659 17.3912 13.2659C17.5834 13.2659 17.7677 13.1895 17.9036 13.0536C18.0395 12.9177 18.1158 12.7334 18.1158 12.5412V11.092H21.739V24.1353H4.34782V11.092H6.52172V9.6427H2.89856V24.2006C2.89856 24.5676 3.04438 24.9197 3.30394 25.1792C3.5635 25.4388 3.91553 25.5846 4.28261 25.5846H21.8042C22.1713 25.5846 22.5233 25.4388 22.7829 25.1792C23.0424 24.9197 23.1882 24.5676 23.1882 24.2006V9.6427H18.1158Z"
+                                                        fill="#2B2E34" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.52168 9.6426V11.0919H4.34779V24.1352H21.739V11.0919H18.1158V12.5411C18.1158 12.7333 18.0394 12.9176 17.9036 13.0535C17.7677 13.1894 17.5833 13.2658 17.3912 13.2658C17.199 13.2658 17.0147 13.1894 16.8788 13.0535C16.7429 12.9176 16.6665 12.7333 16.6665 12.5411V7.50494C16.6665 6.54402 16.2848 5.62246 15.6053 4.94298C14.9259 4.26351 14.0043 3.88178 13.0434 3.88178C12.0824 3.88178 11.1609 4.26351 10.4814 4.94298C9.80193 5.62246 9.42021 6.54402 9.42021 7.50494V9.6426H15.2173V11.0919H9.42021V12.5774C9.42021 12.7695 9.34386 12.9539 9.20797 13.0898C9.07207 13.2256 8.88776 13.302 8.69558 13.302C8.50339 13.302 8.31908 13.2256 8.18319 13.0898C8.04729 12.9539 7.97095 12.7695 7.97095 12.5774V7.50494C7.97095 6.83882 8.10215 6.17922 8.35706 5.56381C8.61197 4.94839 8.98561 4.38922 9.45662 3.9182C9.92764 3.44718 10.4868 3.07355 11.1022 2.81863C11.7177 2.56372 12.3772 2.43252 13.0434 2.43252C13.7095 2.43252 14.3691 2.56372 14.9845 2.81863C15.5999 3.07355 16.1591 3.44718 16.6301 3.9182C17.1011 4.38922 17.4748 4.94839 17.7297 5.56381C17.9846 6.17922 18.1158 6.83882 18.1158 7.50494V9.6426H23.1882V24.2005C23.1882 24.5675 23.0424 24.9196 22.7828 25.1791C22.5233 25.4387 22.1712 25.5845 21.8042 25.5845H4.28257C3.9155 25.5845 3.56346 25.4387 3.3039 25.1791C3.04434 24.9196 2.89852 24.5675 2.89852 24.2005V9.6426H6.52168ZM18.2158 9.5426H23.2882V24.2005C23.2882 24.594 23.1319 24.9715 22.8535 25.2498C22.5752 25.5281 22.1978 25.6845 21.8042 25.6845H4.28257C3.88898 25.6845 3.5115 25.5281 3.23319 25.2498C2.95488 24.9715 2.79852 24.594 2.79852 24.2005V9.5426H6.62168V11.1919H4.44779V24.0352H21.639V11.1919H18.2158V12.5411C18.2158 12.7598 18.1289 12.9696 17.9743 13.1242C17.8196 13.2789 17.6099 13.3658 17.3912 13.3658C17.1725 13.3658 16.9627 13.2789 16.8081 13.1242C16.6534 12.9696 16.5665 12.7598 16.5665 12.5411V7.50494C16.5665 6.57054 16.1953 5.67441 15.5346 5.01369C14.8739 4.35297 13.9778 3.98178 13.0434 3.98178C12.109 3.98178 11.2128 4.35297 10.5521 5.01369C9.8914 5.67441 9.52021 6.57054 9.52021 7.50494V9.5426H15.3173V11.1919H9.52021V12.5774C9.52021 12.7961 9.43333 13.0058 9.27868 13.1605C9.12403 13.3151 8.91428 13.402 8.69558 13.402C8.47687 13.402 8.26712 13.3151 8.11247 13.1605C7.95783 13.0058 7.87095 12.7961 7.87095 12.5774V7.50494C7.87095 6.82569 8.00473 6.15309 8.26467 5.52554C8.52461 4.89799 8.90561 4.32779 9.38591 3.84749C9.86622 3.36718 10.4364 2.98619 11.064 2.72625C11.6915 2.46631 12.3641 2.33252 13.0434 2.33252C13.7226 2.33252 14.3952 2.46631 15.0228 2.72625C15.6503 2.98619 16.2205 3.36718 16.7008 3.84749C17.1811 4.32779 17.5621 4.89799 17.8221 5.52554C18.082 6.15309 18.2158 6.82569 18.2158 7.50494V9.5426Z"
+                                                        fill="#2B2E34" />
+                                                </svg>
+                                                <span class="sr-only">Переместить товар в корзину</span>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button class="btn-more" type="button">Показать еще</button>
+                        </div>
+                    </div>
+                    <div class="catalog__descr">
+                        <div class="catalog__descr-title">
+                            <span>Длинный или короткий заголовок SEO текста</span>
+                        </div>
+                        <div class="catalog__descr-text">
+                            <p>
+                                Интернет-магазин автоматической водосберегающей сантехники и дизайн радиаторов отопления
+                                Сантехническое и отопительное оборудование - основные продукты интернет-магазина "Экон
+                                Урфо".
+                                На сайте urfoecon.ru, вы можете выбрать и купить автоматическую водосберегающую
+                                сантехнику и
+                                дизайн радиаторы отопления. На сайте urfoecon.ru, вы можете выбрать: смесители, душевые,
+                                смывные устройства для унитазов и писсуаров, а так же дополнительные товары: сушилки для
+                                рук, дозаторы мыла, фены для волос, держатели туалетной бумаги, ведра и другое.
+                            </p>
+                        </div>
+                        <div class="catalog__descr-text">
+                            <p>
+                                Преимущества автоматической водосберегающей сантехники — экономия денег и воды!
+                                Результат
+                                будет заметен с первого месяца установки. Обратитесь к нашим специалистам и узнайте вашу
+                                выгоду при использовании автоматической водосберегающей сантехники. Звоните или
+                                оставляйте
+                                заявку на расчет.
+                            </p>
+                        </div>
+                        <div class="catalog__descr-subtitle">
+                            <span>Подзаголовок внутри текста</span>
+                        </div>
+                        <div class="catalog__descr-text">
+                            <p>
+                                На сайте urfoecon.ru, вы можете выбрать красивые современные модели радиаторов отопления
+                                Европейских и Российских производителей. Радиаторы представленные в каталоге,изготовлены
+                                из
+                                прочных материалов: сталь, алюминий и биметалл. Мы уверены в качестве нашей продукции и
+                                предоставляем гарантию до 25 лет на радиаторы отопления. В нашем ассортименте: водяные и
+                                электрические радиаторы, высокие, средние и низкие, узкие и широкие, трубчатые и
+                                панельные
+                                модели, стандартные белые, черные, бежевые и любые цвета по шкале RAL.
+                            </p>
+                        </div>
+                        <div class="catalog__descr-text">
+                            <p>
+                                Обратитесь к нашим специалистам и подберите радиаторы, которые гармонично впишутся в ваш
+                                интерьер и будут эффективно обогревать ваш дом. Звоните или оставляйте заявку на расчет.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__contacts">
+                        <a class="logo logo__footer" href="#">
+                            <img class="logo__img" src="image/logo.png" alt="Логотип сайта" width="283" height="65">
+                        </a>
+                        <address class="footer__contacts-info">
+                            <a class="footer__contact-link footer__contact-link--phone" href="tel:+1234567890">+7 (495)
+                                506-36-50</a>
+                            <ul class="footer__list footer__list-address">
+                                <li class="footer_item">Пн-Пт: с 08:00 до 19:00</li>
+                                <li class="footer_item">Сб-Вс: с 08:00 до 16:00</li>
+                            </ul>
+                            <a class="footer__contact-link footer__contact-link--email"
+                                href="mailto:office@uconerfo.ru">office@uconerfo.ru</a>
+                            <span class="footer__contact-subtitle">Мы в сети</span>
+                            <ul class="footer__social-list">
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link footer__social-link--vk" href="#">ВКонтакте</a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link footer__social-link--inst" href="#">Instagram</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="footer__category">
+                        <span class="footer__category-title">Категории продукции</span>
+                        <ul class="footer__category-list">
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Трубчатые радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Панельные радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Полотенцесушители</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Вертикальные радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Дизайн радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Внутрипольные конвекторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Конвекторы водяные</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Водосберегающая сантехника</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Теплый пол</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Чугунные дизайн радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Арматура для радиаторов</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__category">
+                        <span class="footer__category-title">Категории продукции</span>
+                        <ul class="footer__category-list">
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Трубчатые радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Панельные радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Полотенцесушители</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Вертикальные радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Дизайн радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Внутрипольные конвекторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Конвекторы водяные</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Водосберегающая сантехника</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Теплый пол</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Чугунные дизайн радиаторы</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Арматура для радиаторов</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__category">
+                        <span class="footer__category-title">Информация</span>
+                        <ul class="footer__category-list">
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">О компании</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Готовые решения</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Наша продукция</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Цвета</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Сертификаты</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Доставка и оплата</a>
+                            </li>
+                            <li class="footer__category-item">
+                                <a class="footer__category-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <span>Copyright © 2014 - 2020</span>
+                    <a class="footer__bottom-link" href="#">Политика конфиденциальности</a>
+                    <a class="footer__bottom-link" href="#">Обработка персональной информации</a>
+                    <a href="#" class="footer__bottom-link">
+                        <span class="footer__created-by">Разработано <img src="image/logo-rd.png"
+                                alt="Логотип Request Design" width="157" height="31"></span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
